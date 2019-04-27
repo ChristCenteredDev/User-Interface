@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Containers */
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.twin-container {
+	width: 49%;
+	float: left;
+	margin: auto;
+	display: inline-block;
+}
+
+.trio-container {
+	width: 32%;
+	display: inline-block;
+}
+
+/* General */
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Nav */
+
+nav a {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+.logo {
+	padding-left: 74px;
+}
+
+/* Header */
+
+.twin-container h1 {
+	font-size: 75px;
+	text-align: center;
+	padding: 60px 0 30px 0;
+}
+
+.half-size-img {
+	width: 100%;
+	padding: 35px;
+}
+
+button {
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+header {
+	overflow: hidden;
+	border-bottom: 2px solid black;
+}
+
+/* Section #1 */
+
+section {
+	overflow: hidden;
+}
+
+section .twin-container {
+	padding-top: 20px;
+}
+
+.full-size-img {
+	width: 100%;
+	padding: 20px 0;
+}
+
+/* Section #2 */
+
+.btm-border {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+/* Div */
+
+div h4 {
+	padding-top: 20px;
+}
+
+/* Footer */
+footer {
+	padding: 40px 0;
+	text-align: center;
+}
